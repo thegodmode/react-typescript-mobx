@@ -2,13 +2,15 @@
     "compilerOptions":{
         "allowSyntheticDefaultImports":true,
         "jsx":"react",
-        "module":"commonjs",
+        "module":"amd",
         "noImplicitAny": true,
         "outDir":"./dist/app",
         "preserveConstEnums":true,
         "removeComments":true,
         "sourceMap":true,
-        "target":"es5"
+        "moduleResolution":"node",
+        "target":"es6",
+        "experimentalDecorators": true,
     },
     "include":[
         "./src/app/**/*"
